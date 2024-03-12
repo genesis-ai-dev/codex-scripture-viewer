@@ -1,0 +1,73 @@
+{
+  "name": "codex-scripture-viewer",
+  "description": "Codex Scripture Viewer",
+  "version": "0.0.1",
+  "publisher": "project-accelerate",
+  "private": true,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/genesis-ai-dev/codex-scripture-viewer"
+  },
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "extensionKind": [
+    "ui",
+    "workspace"
+  ],
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "configuration": [],
+    "views": {},
+    "viewsContainers": {},
+    "commands": [
+      {
+        "command": "scriptureViewer.showScriptureViewer",
+        "title": "Show Scripture Viewer"
+      }
+    ],
+    "menus": {
+      "view/title": [
+        {
+          "command": "scriptureViewer.showScriptureViewer",
+          "when": "view == scriptureViewer",
+          "group": "navigation"
+        }
+      ],
+      "view/item/context": [
+        {
+          "command": "scriptureViewer.showScriptureViewer",
+          "when": "view == scriptureViewer",
+          "group": "navigation"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "lint": "eslint \"src/**/*.ts\"",
+    "watch": "tsc -w -p ./"
+  },
+  "devDependencies": {
+    "@types/uuid": "^9.0.7",
+    "@types/node": "^20.11.25",
+    "@types/vscode": "^1.73.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.0",
+    "@typescript-eslint/parser": "^6.7.0",
+    "eslint": "^8.32.0",
+    "typescript": "^5.3.2"
+  },
+  "dependencies": {
+    "codex-types": "^0.0.2",
+    "path": "^0.12.7",
+    "@vscode/codicons": "^0.0.35"
+  }
+}
