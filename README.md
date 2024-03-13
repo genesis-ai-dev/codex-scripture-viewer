@@ -2,7 +2,7 @@
 
 The Scripture Viewer Extension is a dedicated Visual Studio Code extension designed to enhance the reading experience of scripture texts within Codex notebooks. This extension specifically targets `.codex` notebook files, rendering the scripture text as formatted text in a custom webview. It aims to provide a seamless and enriched scripture reading experience directly within the Visual Studio Code environment.
 
-> Note: This extension is a focused tool within the broader Codex Scripture Editor Extension suite, emphasizing scripture viewing in a well-formatted manner. It is currently under active development, and feedback or issue reporting is highly encouraged through our [GitHub repository](https://github.com/genesis-ai-dev/scripture-viewer-extension).
+> Note: This extension is a focused tool within the broader Codex Scripture Editor Extension suite, emphasizing scripture translation. It is currently under active development, and feedback or issue reporting is highly encouraged through our [GitHub repository](https://github.com/genesis-ai-dev/codex-scripture-viewer).
 
 Discover more about the Scripture Viewer Extension through our [documentation](https://scripture-viewer-extension.gitbook.io/).
 
@@ -15,8 +15,8 @@ Discover more about the Scripture Viewer Extension through our [documentation](h
 ### Getting Started
 
 1. **Installation**: Install the extension securely from the Visual Studio Code Marketplace.
-2. **Open a Codex Notebook**: Navigate to your `.codex` notebook file within Visual Studio Code to begin reading scripture text.
-3. **Enjoy Formatted Scripture**: The scripture text will automatically be displayed in a formatted webview, providing a clean and focused reading environment.
+2. **Open a Codex Notebook**: Navigate to your `.codex` notebook file within Visual Studio Code.
+3. **View Scripture**: Click the "View Scripture" code lens to view the scripture in the scripture viewer.
 
 > Note: There are no additional configurations required to start using the Scripture Viewer Extension. It is designed to work out of the box with `.codex` notebook files.
 
@@ -41,8 +41,6 @@ Your contributions and suggestions are highly valued! Please visit our [GitHub r
 This extension is distributed under the MIT License. For more information, refer to the LICENSE file in the GitHub repository.
 
 ---
-
-The Scripture Viewer Extension is part of Project Accelerate, aiming to enhance the scripture reading experience through innovative technology solutions. Join us in our mission to make scripture more accessible and engaging within the digital realm.
 
 ## Developers: Running this extension locally in VS Code
 
