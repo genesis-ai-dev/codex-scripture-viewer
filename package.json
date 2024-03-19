@@ -1,7 +1,7 @@
 {
   "name": "codex-scripture-viewer",
   "description": "Codex Scripture Viewer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "project-accelerate",
   "private": true,
   "license": "MIT",

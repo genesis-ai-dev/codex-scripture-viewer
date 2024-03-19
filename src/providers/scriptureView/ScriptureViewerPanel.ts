@@ -69,6 +69,13 @@ export class ScriptureViewerPanel {
 
     initAsync().catch(console.error);
 
+    vscode.workspace.onDidSaveNotebookDocument((event) => {
+      initAsync().catch(console.error);
+    });
+    vscode.workspace.onDidSaveTextDocument((event) => {
+      initAsync().catch(console.error);
+    });
+
     this._panel.onDidDispose(() => this.dispose(), null, this._disposables);
   }
 
