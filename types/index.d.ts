@@ -24,3 +24,5 @@ interface SelectedTextDataWithContext {
   vrefAtStartOfLine: string | null;
   selectedText: string | null;
 }
+
+type NotebookCellKind = vscode.NotebookCellKind;
